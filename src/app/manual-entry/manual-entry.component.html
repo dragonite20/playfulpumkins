@@ -3,16 +3,25 @@
 </div>
 <br>
 <div class="container">
-  <div>Flight number:</div>
-  <input type="text" placeholder="e.g. BA0085" class="form-control"/>
-  <br><br>
-  <p>OR</p>
-  <p>Flying from:</p>
-  <input type="text" placeholder="City you are flying from" class="form-control"/>
-  <p>Flight number:</p>
-  <input type="text" placeholder="City you are flying to" class="form-control"/>
-  <br><br>
-  <div class="our-button">
-    <button class="btn btn-default">Get My Carbon Offset</button>
-  </div>
+  <form class="form" name="form" action="/information">
+    <div class="form-group">
+      <p>Flight number:</p>
+      <input type="text" placeholder="e.g. BA0085" class="form-control"/>
+    </div>
+    <br>
+    <p>OR</p>
+    <div class="form-group">
+      <p>Flying from:</p>
+      <input type="text" placeholder="City you are flying from" class="form-control"/>
+    </div>
+    <br>
+    <div class="form-group">
+      <p>Flight number:</p>
+      <input type="text" placeholder="City you are flying to" class="form-control"/>
+    </div>
+    <br><br>
+    <div class="our-button">
+      <button class="btn btn-default">Get My Carbon Offset</button>
+    </div>
+  </form>
 <div>
