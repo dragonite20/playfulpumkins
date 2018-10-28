@@ -4,11 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { EventsAppComponent } from './events-app.component';
 import { NavBarComponent } from './nav/nav-bar.component';
-import { ManualEntryComponent } from './manual-entry/manual-entry.component'
-import { InformationComponent } from './information/information.component'
+import { ManualEntryComponent } from './manual-entry/manual-entry.component';
+import { InformationComponent } from './information/information.component';
 import { appRoutes } from './routes';
 import { PurchaseConfirmationComponent } from './purchase-confirmation/purchase-confirmation.component';
-import { PhotoComponent } from './photo/photo.component'
+import { PhotoComponent } from './photo/photo.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { PhotoComponent } from './photo/photo.component'
     InformationComponent,
     ManualEntryComponent,
     PurchaseConfirmationComponent,
-    PhotoComponent
+    PhotoComponent,
+    DashboardComponent
   ],
   bootstrap: [EventsAppComponent]
 })
