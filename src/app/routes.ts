@@ -11,6 +11,6 @@ export const appRoutes: Routes = [
   { path: 'purchase-confirmation', component: PurchaseConfirmationComponent },
   { path: 'information', component: InformationComponent },
   { path: 'manual-entry', component: ManualEntryComponent },
-  { path: '**', redirectTo: '/photo', pathMatch: 'full'},
-  { path: 'dashboard', component: DashboardComponent  }
+  { path: 'dashboard', component: DashboardComponent  },
+  { path: '**', redirectTo: '/photo', pathMatch: 'full'}
 ];
