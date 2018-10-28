@@ -3,10 +3,7 @@
   margin: 0 auto;
   display:block;
 }
-#or{
-    text-align: center;
-}
-p {
-  font-weight: bold;
-  font-size: 18px;
+
+img {
+  width:100%;
 }
