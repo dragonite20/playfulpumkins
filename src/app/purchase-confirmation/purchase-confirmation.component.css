@@ -14,3 +14,15 @@ text-align: center;
 h4 {
   text-decoration: underline;
 }
+
+.Discounts{
+  background-color:#B3C100;
+  margin: 0 auto;
+  display:block;
+  background-size: auto;
+  text-align: center;
+}
+
+h5{
+  font-size: 100 px;
+}

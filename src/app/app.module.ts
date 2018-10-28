@@ -7,7 +7,8 @@ import { NavBarComponent } from './nav/nav-bar.component';
 import { ManualEntryComponent } from './manual-entry/manual-entry.component'
 import { InformationComponent } from './information/information.component'
 import { appRoutes } from './routes';
-import { PurchaseConfirmationComponent } from './purchase-confirmation/purchase-confirmation.component'
+import { PurchaseConfirmationComponent } from './purchase-confirmation/purchase-confirmation.component';
+import { DashboardComponent } from './dashboard/dashboard.component'
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { PurchaseConfirmationComponent } from './purchase-confirmation/purchase-
     NavBarComponent,
     InformationComponent,
     ManualEntryComponent,
-    PurchaseConfirmationComponent
+    PurchaseConfirmationComponent,
+    DashboardComponent
   ],
   bootstrap: [EventsAppComponent]
 })
