@@ -1,0 +1,16 @@
+.btn {
+  background-color: #34675C;
+  margin: 0 auto;
+  display:block;
+}
+
+.Thanks{
+background: url("https://www.goldstandard.org/sites/default/files/styles/project_square/public/pic_1_project_landscape.jpg?itok=SCgsoDJ1");
+background-size: auto;
+text-align: center;
+
+}
+
+h4 {
+  text-decoration: underline;
+}
