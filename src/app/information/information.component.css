@@ -1,0 +1,46 @@
+.btn {
+  color: #34675C;
+  background-color: #6BDA0B;
+  border: 2px solid #34675C;
+  margin: 0 auto;
+  padding: 10px;
+  display:block;
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+#info {
+  border-radius: 20px;
+  background-color: #34675C;
+  color: white;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#bottom-text{
+  max-width: 300px;
+  margin: 0px auto;
+  text-align: justify;
+  font-size: 15px;
+}
+.text{
+  font-size: 20px;
+  text-align: center;
+}
+
+.number{
+  font-size: 40px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  background-color: #6BDA0B;
+  padding: 10px;
+}
+
+.airport-code{
+  font-size:50px;
+}
